@@ -1,5 +1,10 @@
 body {
-  background-color: #ccc;
+  background-color: #99b5ab74;
+  background-image: url("/public/images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 h1 {
@@ -8,6 +13,18 @@ h1 {
 
 h2 {
   font-weight: 700;
+}
+
+main {
+  background-color: rgba(250, 235, 215, 0.582);
+}
+
+section {
+  background-color: rgba(247, 198, 125, 0.611);
+}
+
+main img {
+  width: 100%;
 }
 
 .quote-container p {
@@ -27,11 +44,20 @@ h2 {
 }
 
 .grid-container {
-  background-color: salmon;
+  background-color: rgba(184, 236, 199, 0.4);
 }
 
 .grid-container h2 {
   color: white;
+}
+
+footer {
+  background-color: rgba(74, 69, 63, 0.505);
+  color: white;
+}
+
+footer .container {
+  padding: 0;
 }
 
 /* footer {

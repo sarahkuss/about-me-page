@@ -2,7 +2,7 @@ import About from './components/About';
 import PicCarousel from './components/PicCarousel';
 import Footer from './components/Footer';
 import Grid from './components/Grid';
-import HeroBanner from './components/HeroBanner';
+// import HeroBanner from './components/HeroBanner';
 import Quote from './components/Quote';
 import Video from './components/Video';
 
@@ -12,12 +12,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <HeroBanner />
+      {/* <HeroBanner /> */}
       <About />
       <Quote />
       <Grid />
-      <PicCarousel />
-      <Video />
+      {/* <PicCarousel /> */}
+      {/* <Video /> */}
       <Footer />
     </div>
   );
