@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corben&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
   background-color: #99b5ab74;
   background-image: url("/public/images/bg.jpg");
@@ -8,19 +12,32 @@ body {
 }
 
 h1 {
-  font-weight: 900;
+  font-weight: 1000;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 50px;
+  background-color: rgba(255, 255, 255, 0.811);
 }
 
 h2 {
   font-weight: 700;
+  font-size: 35px;
 }
 
 main {
   background-color: rgba(250, 235, 215, 0.582);
+  font-weight: 600;
+  font-size:20px;
+}
+main p {
+  background-color: rgba(255, 255, 255, 0.81);
+  font-family: 'Corben', cursive;
+  border-radius: 8px;
+  /* margin: 10px; */
+  padding: 20px;
 }
 
 section {
-  background-color: rgba(247, 198, 125, 0.611);
+  background-color: rgba(247, 198, 125, 0.769);
 }
 
 main img {
@@ -30,6 +47,7 @@ main img {
 .quote-container p {
   font-size: clamp(23px, 4vw, 26px);
   font-weight: 700;
+  font-family: 'Castoro Titling', cursive;
 }
 .quote-container q {
   font-size: 105%;
@@ -44,25 +62,27 @@ main img {
 }
 
 .grid-container {
-  background-color: rgba(184, 236, 199, 0.4);
+  background-color: rgba(34, 157, 245, 0.4);
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Corben', cursive;
+  /* background-color: rgba(184, 236, 234, 0.4); */
 }
 
 .grid-container h2 {
-  color: white;
 }
 
 footer {
-  background-color: rgba(74, 69, 63, 0.505);
+  background-color: rgba(74, 69, 63, 0.735);
   color: white;
+  font-size: 20px;
+}
+
+footer a {
+  color: white;
+  
 }
 
 footer .container {
   padding: 0;
 }
-
-/* footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-} */

@@ -2,9 +2,9 @@ import { useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
 const quotes = [
-  {saying: "When I let go of what I am, I become what I might be.", author: "Lao Tzu"},
-  {saying: "This is a different quote", author: "Lao Tzu - 老子"},
-  {saying: "Anotha One", author: "Lao Tzu - 老子"}
+  {saying: "When I let go of what I am, I become what I might be.", author: "老子 (Lao Tzu)"},
+  {saying: "Anywhere you can lead your life, you can lead a good one.", author: "Marcus Aurelius"},
+  {saying: "Tell me and I forget, teach me and I may remember, involve me and I learn", author: "Benjamin Franklin"}
 ]
 
 export default function Quote () {
