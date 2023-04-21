@@ -12,10 +12,11 @@ body {
 }
 
 h1 {
-  font-weight: 1000;
+  font-weight: 500;
   font-family: 'Bebas Neue', cursive;
-  font-size: 50px;
+  font-size: 60px;
   background-color: rgba(255, 255, 255, 0.811);
+  border-radius: 8px;
 }
 
 h2 {
@@ -26,7 +27,7 @@ h2 {
 main {
   background-color: rgba(250, 235, 215, 0.582);
   font-weight: 600;
-  font-size:20px;
+  font-size:clamp(15px, 4vw, 23px);
 }
 main p {
   background-color: rgba(255, 255, 255, 0.81);
@@ -66,10 +67,8 @@ main img {
   text-align: center;
   font-weight: 600;
   font-family: 'Corben', cursive;
+  font-size: clamp(12px, 4vw, 18px);
   /* background-color: rgba(184, 236, 234, 0.4); */
-}
-
-.grid-container h2 {
 }
 
 footer {

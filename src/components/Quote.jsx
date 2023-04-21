@@ -15,7 +15,7 @@ export default function Quote () {
   }
   return(
     <section>
-      <Container onClick={nextQuote} className="quote-container">
+      <Container onMouseEnter={nextQuote} className="quote-container">
         <Row className="text-center">
           <Col>
           <p><q>{quotes[i].saying}</q><br />- {quotes[i].author}</p>

@@ -17,7 +17,7 @@ export default function Grid () {
 
           <Col sm={12} md={4}>
             <h2 className="text-center">Projects</h2>
-            <p>Many people want to get involved in their community or contribute to conservation, but most don’t even know where to begin. My goal is to build a website/app that gives people information on how they can get involved, both locally and globally. It would have a database of non-profit conservation organizations, with brief descriptions, how they can get involved/donate, and a link to the organizations website. It would also have a search feature where the person can enter their location/zip code and it would populate local organizations/community service opportunities. 
+            <p>Many people want to get involved in their community or contribute to conservation, but most don’t even know where to begin. My goal is to build a website/app that gives people information on how they can get involved, both locally and globally. It would have a database of non-profit conservation organizations, with brief descriptions, how they can get involved or donate, and a link to the organizations website. It would also have a search feature where the person can enter their location/zip code and it would populate local organizations/community service opportunities. 
 </p>
           </Col>
 
